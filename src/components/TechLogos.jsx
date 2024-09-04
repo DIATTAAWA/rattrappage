@@ -2,13 +2,13 @@
 import React from 'react';
 
 const logos = [
-  { src: '/path/to/nodejs-logo.png', alt: 'Node.js Logo' },
-  { src: '/path/to/python-logo.png', alt: 'Python Logo' },
-  { src: '/path/to/javascript-logo.png', alt: 'JavaScript Logo' },
-  { src: '/path/to/css-logo.png', alt: 'CSS Logo' },
-  { src: '/path/to/react-logo.png', alt: 'React Logo' },
-  { src: '/path/to/java-logo.png', alt: 'Java Logo' },
-  { src: '/path/to/aws-logo.png', alt: 'AWS Logo' },
+  { src: '/src/assets/HTML LOGO.jpeg', alt: 'HTML' },
+  { src: '/src/assets/nodjs.jpeg', alt: 'nodjs.jpeg' },
+  { src: '/src/assets/CSS.jpeg', alt: 'css' },
+  { src: '/src/assets/REACT LOGO.jpeg', alt: 'react' },
+  { src: '/src/assets/JAVA.jpeg', alt: 'java' },
+  { src: '/src/assets/AWS.jpeg', alt: 'aws' },
+  { src: '/src/assets/python.jpeg', alt: 'python' },
 ];
 
 const TechLogos = () => {

@@ -1,51 +1,44 @@
-// src/components/Projects.jsx
 import React from 'react';
 
-const Project = () => {
+const Projects = () => {
   return (
-    <section id="projects" className="p-8 bg-gray-100">
+    <section id="projects" className="p-8">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-6 text-center">Mes Projets</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* Portfolio */}
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-3">Portfolio</h3>
-            <p className="text-gray-700 mb-4">
-              Découvrez mes projets récents et mes réalisations dans différents domaines.
-            </p>
-            <a href="#portfolio" className="text-blue-500 hover:underline">Voir plus</a>
-          </div>
-          
-          {/* Application mobile */}
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-3">Application Mobile</h3>
-            <p className="text-gray-700 mb-4">
-              Explorez les applications mobiles que j'ai développées avec des fonctionnalités innovantes.
-            </p>
-            <a href="#mobile-apps" className="text-blue-500 hover:underline">Voir plus</a>
-          </div>
-          
-          {/* Site web */}
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-3">Site Web</h3>
-            <p className="text-gray-700 mb-4">
-              Jetez un œil aux sites web que j'ai conçus, chacun avec une interface utilisateur unique.
-            </p>
-            <a href="#web-sites" className="text-blue-500 hover:underline">Voir plus</a>
-          </div>
-          
-          {/* Modélisation */}
-          <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-3">Modélisation</h3>
-            <p className="text-gray-700 mb-4">
-              Découvrez mes travaux de modélisation 3D et de conception graphique.
-            </p>
-            <a href="#modeling" className="text-blue-500 hover:underline">Voir plus</a>
+        <h2 className="text-3xl font-bold mb-6 ">Portfolio</h2>
+        
+       {/* Barre grise avec border-radius et texte aligné à droite */}
+       <div className="bg-gray-200 p-4 rounded-r-lg flex justify-end items-center mb-6">
+          <span className="text-lg font-medium text-blue-500 mr-4">Application Mobile</span>
+          <span className="text-lg font-medium mr-4">Site Web</span>
+          <span className="text-lg font-medium">Modélisation</span>
+        </div>
+
+        <h3 className='mx-10'>projet</h3>
+        <div className="flex justify-between mb-6">
+        
+
+
+          {/* Premier div pour les catégories alignées à droite */}
+          <div className="p-4 rounded-r-lg flex flex-col items-end w-1/2">
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque illum eveni
+    et iusto blanditiis dolor, itaque unde doloremque autem quaerat tempore et modi nihil
+    pariatur id natus, corporis tempora. Dicta, quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus praesentium expedita numquam voluptatum impedit quaerat, quam, assumenda odio explicabo ullam 
+    tempora debitis delectus nulla neque omnis libero! Nostrum, earum?</p>
+  
+  <button className='bg-sky-600 w-96 h-12 rounded-lg mt-4 mr-32'>Voir plus</button>
+</div>
+
+          {/* Deuxième div pour autre contenu ou vide */}
+          <div className=" p-4 rounded-l-lg w-1/2">
+            <img className='ml-32' src="/src/assets/mobile.jpeg" alt="mobile" />
           </div>
         </div>
       </div>
+      
+
+
     </section>
   );
 };
 
-export default Project;
+export default Projects;
